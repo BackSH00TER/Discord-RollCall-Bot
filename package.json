@@ -1,0 +1,21 @@
+{
+  "name": "discord-rollcall-bot",
+  "version": "1.0.0",
+  "description": "Simple discord bot that posts a rollcall status to a channel",
+  "main": "rollCallBot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyhilde/Discord-RollCall-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyhilde/Discord-RollCall-Bot/issues"
+  },
+  "homepage": "https://github.com/tyhilde/Discord-RollCall-Bot#readme"
+}
