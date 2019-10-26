@@ -1,15 +1,3 @@
-// Bot needs to request
-// TextPermissions:
-// - Send Messages
-// - Manage Messages
-// Invite to join server
-// https://discordapp.com/oauth2/authorize?client_id=XXXXXXX&scope=bot&permissions=10240
-
-
-// Get your bot's secret token from:
-// https://discordapp.com/developers/applications/
-// Click on your application -> Bot -> Token -> "Click to Reveal Token"
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
