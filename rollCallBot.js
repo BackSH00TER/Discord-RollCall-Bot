@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
-const BOT_SECRET_TOKEN = "<BOT_SECRET_TOKEN>";
-const ROLL_CALL_CHANNEL_ID = '<ROLL_CALL_CHANNEL_ID_HERE>'; 
-
+const {BOT_SECRET_TOKEN, ROLL_CALL_CHANNEL_ID} = require('./secrets');
 
 // Helper to find channel id
 // client.on('ready', () => {
